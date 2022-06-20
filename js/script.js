@@ -1,14 +1,4 @@
-/*
-    Sepertinya disitu ngelag 
-    flow --
-    INPUT -> name, email, subject, message
-    
-*/ 
-const WhatsappAPIuri = 'https://wa.me/0895800991450'
-
-// const handleSendToWA = () => {
-//     const submitBTN = document.getElementById('#form-submit')
-    
+const WhatsappAPIuri = 'https://wa.me/+62895800991450'
 
 $(document).ready(function() {
     $('#form-submit').on('click', function(event) {
