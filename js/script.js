@@ -8,7 +8,7 @@ $(document).ready(function() {
         const subject = $('#subject').val() || ""
         const message = $('#message').val() || ""
 
-        const textTemplate = `Halo, perkenalkan nama saya ${name} %0AIni email/sosmed saya ${email}. %0ASalam kenal, %0A${subject} %0A${message}`
+        const textTemplate = `Halo, perkenalkan nama saya ${name}, Saya berharap anda bisa bayar Hutang secepatnya %0AIni email/sosmed saya ${email}. %0ASalam kenal, sekiranya berikut kata2 terakhir almarhum:%0A${subject} %0A${message}`
 
         window.location.href = `${WhatsappAPIuri}?text=${textTemplate}`
     })
